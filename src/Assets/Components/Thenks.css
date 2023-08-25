@@ -1,0 +1,24 @@
+.thenks-conteiner {
+    text-align: center;
+}
+
+.thenks-conteiner h2 {
+    margin-bottom: 1rem;
+}
+
+.thenks-conteiner span {
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.thenks-conteiner h3 {
+    margin: 1rem 0;
+}
+
+.review-data {
+    text-align: left;
+}
+
+.review-data h4 {
+    font-weight: bold;
+}

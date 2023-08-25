@@ -1,0 +1,25 @@
+.form-control.score-conteiner {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .radio-conteiner{
+    text-align: center;
+    position: relative;
+  }
+
+  .radio-conteiner input {
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .radio-conteiner span {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    
+  }
+  
