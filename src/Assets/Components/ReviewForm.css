@@ -3,6 +3,21 @@
     gap: 2rem;
     justify-content: center;
   }
+
+  .score-conteiner svg {
+     font-size: 1.6rem;
+     cursor: pointer;
+     transition: 0.3s;
+  }
+
+  .score-conteiner svg:hover {
+    fill: #7076f4;
+  }
+
+  .score-conteiner input:checked ~ svg {
+   fill: #7076f4;
+  }
+
   .radio-conteiner{
     text-align: center;
     position: relative;
@@ -12,7 +27,7 @@
     opacity: 0;
     position: absolute;
     top: 15px;
-    left: 20px;
+    left: 30px;
   }
 
   .radio-conteiner span {

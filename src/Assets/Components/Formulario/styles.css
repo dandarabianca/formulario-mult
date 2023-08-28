@@ -1,0 +1,34 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px  29px 0px;
+  }
+  .form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .inputs-conteiner{
+    min-height: 280px;
+  }
+  .actions{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  .actions button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+  }
+  .actions button:hover{
+    background-color: #cfcfcf;
+  }

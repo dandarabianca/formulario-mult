@@ -8,6 +8,14 @@
     position: relative;
     margin-bottom: 2rem;
 }
+ 
+.steps::after {
+    content: "";
+    width: 380px;
+    border-bottom: 1px solid #CCC;
+    position: absolute;
+    top: 20px;
+}
 
 .step{
     text-align: center;
@@ -17,7 +25,16 @@
     padding: 0.5rem;
 }
 
+.step svg {
+    font-size: 1.6rem;
+    margin-bottom: .2rem;
+}
+
 .active{
     font-weight: bold;
+}
+
+.active > svg{
+    fill: #7076f4;
 }
 

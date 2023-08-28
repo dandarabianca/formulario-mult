@@ -19,6 +19,10 @@
     text-align: left;
 }
 
+.review-data svg {
+    margin-left: 5px;
+}
+
 .review-data h4 {
     font-weight: bold;
 }
