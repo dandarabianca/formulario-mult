@@ -33,7 +33,7 @@ export default function ReviewForm({data, updateFieldHandler}) {
       onChange={(e) => updateFieldHandler ("review", e.target.value)}
       />
       <BsFillEmojiNeutralFill />
-      <span>Poderia ser melhor</span>
+      <span>Pode melhorar</span>
     </label>
     <label className='radio-conteiner'>
       <input
@@ -51,15 +51,15 @@ export default function ReviewForm({data, updateFieldHandler}) {
     <label className='radio-conteiner'>
       <input
       type='radio'
-      value='very_satisfied'
+      value='excellent'
       name='review'
       required
-      checked={data.review === "very_satisfied"}
+      checked={data.review === "excellent"}
       onChange={(e) => updateFieldHandler ("review", e.target.value)}
 
       />
       <BsFillEmojiHeartEyesFill />
-      <span>Muito Satisfeito</span>
+      <span>Otímo</span>
     </label>
      </div>
       <div className='form-control'>
