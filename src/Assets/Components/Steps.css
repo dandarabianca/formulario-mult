@@ -38,3 +38,8 @@
     fill: #7076f4;
 }
 
+@media (max-width: 450px) {
+    .step svg {
+     font-size: 1.4rem;
+    }
+}

@@ -32,9 +32,4 @@
   .actions button:hover{
     background-color: #cfcfcf;
   }
-
-  @media (max-width: 500px) {
-    .form-container {
-      font-size: 10px;
-    }
-  }
+  
