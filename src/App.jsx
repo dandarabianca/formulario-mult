@@ -5,7 +5,6 @@ import UseForm from "./Assets/Components/UseForm";
 import ReviewForm from "./Assets/Components/ReviewForm";
 import Thenks from "./Assets/Components/Thenks";
 import "./index.css";
-import Steps from "./Assets/Components/Steps";
 
 // Hooks
 import { useForm } from "./hooks/useForm";
